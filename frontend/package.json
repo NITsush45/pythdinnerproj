@@ -1,0 +1,19 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "Frontend for DinnerTonight Bio Generator",
+  "main": "index.html",
+  "scripts": {
+    "build-frontend": "react-scripts build",
+    "start": "concurrently \"npm run start-backend\" \"npm run start-frontend\"",
+    "start-backend": "venv\\Scripts\\python ../backend/app.py || python3 ../backend/app.py",
+    "start-frontend": "lite-server",
+    "build": "npm run build-frontend"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.1.0",
+    "lite-server": "^2.6.1"
+  }
+}

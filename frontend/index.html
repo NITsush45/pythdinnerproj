@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DinnerTonight Bio Generator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>DinnerTonight Bio Generator</h1>
+        <form id="bioForm">
+            <label for="career">Career:</label>
+            <select id="career">
+                <option value="Software Engineer">Software Engineer</option>
+                <option value="Artist">Artist</option>
+                <option value="Entrepreneur">Entrepreneur</option>
+            </select>
+
+            <label for="personality">Personality:</label>
+            <select id="personality">
+                <option value="Adventurous">Adventurous</option>
+                <option value="Creative">Creative</option>
+                <option value="Compassionate">Compassionate</option>
+            </select>
+
+            <label for="interests">Interests:</label>
+            <select id="interests">
+                <option value="Cooking">Cooking</option>
+                <option value="Travel">Travel</option>
+                <option value="Music">Music</option>
+            </select>
+
+            <label for="goals">Relationship Goals:</label>
+            <select id="goals">
+                <option value="Casual">Casual</option>
+                <option value="Long-term">Long-term</option>
+            </select>
+
+            <button type="submit">Generate Bio</button>
+        </form>
+        <h2>Your Generated Bio:</h2>
+        <p id="generatedBio"></p>
+    </div>
+</body>
+</html>
